@@ -1,11 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Uncascade",
   "description": "Undo cascading of newly opened windows",
   "version": "1.0",
 
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "service_worker.js"
   }
 }
